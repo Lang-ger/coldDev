@@ -1,0 +1,11 @@
+div.imgBox table tr td p{
+font-size: 35px;
+}
+div.imgBox table tr td a:hover{
+opacity: 0.5;
+color: black;
+}
+.imgBox img:hover{
+opacity: 0.5;
+color: black;
+}

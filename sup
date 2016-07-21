@@ -1,0 +1,10 @@
+$numeros = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+echo '<ul>';
+foreach($numeros as $numero){
+    if($numero > 5){
+        echo '<li>MAIOR QUE CINCO - '.$numero.'</li>';
+    }else{
+        echo '<li>MENOR OU IGUAL - '.$numero.'</li>';
+    }
+}
+echo '</ul>';

@@ -1,0 +1,127 @@
+@font-face { /*Fonte LimelightRegular "Avá, é mesmo"*/
+	font-family :'CaviarDreams';
+	src: url('../fonts/CaviarDreams.ttf') format('truetype');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte LimelightRegular "Avá, é mesmo"*/
+	font-family :'CODE Bold';
+	src: url('../fonts/CODE Bold.otf') format('truetype');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte Lobster1.4Regular "Avá, é mesmo"*/
+	font-family :'Lobster1.4Regular';
+	src :url('../fonts/lobster-webfont.eot');
+	src :url('../fonts/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/lobster-webfont.woff') format('woff'),
+		url('../fonts/lobster-webfont.ttf') format('truetype'),
+		url('../fonts/lobster-webfont.svg#Lobster1.4Regular') format('svg');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte LimelightRegular "Avá, é mesmo"*/
+	font-family :'LimelightRegular';
+	src :url('../fonts/limelight-webfont.eot');
+	src :url('../fonts/limelight-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/limelight-webfont.woff') format('woff'),
+		url('../fonts/limelight-webfont.ttf') format('truetype'),
+		url('../fonts/limelight-webfont.svg#LimelightRegular') format('svg');
+	font-weight :normal;
+	font-style :normal;
+}
+#contactform {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+   		width: 300px;
+}
+input[type="submit"]{
+	width :100px;
+	height :50px;
+	cursor :pointer;
+	background-color: white;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+input[type="submit"]:hover{
+	width: 100px;
+	height: 50px;
+	background-color: black; 
+	color: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+a.but{
+	background :transparent url("imagens/button.png") no-repeat 0 -450px;
+	width :100px;
+	height :40px;
+	color: black;
+	background-color: white;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	padding: 17px;
+}
+a.but:hover {
+	background :transparent url("imagens/button.png") no-repeat 0 -364px;
+	background-color: black;
+	width: 100px;
+	height: 40px;
+	color: white;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+label {
+    font-family:'CaviarDreams';
+    display: block;
+    font-weight: bold;
+    margin-right:10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;*/
+}
+.input{
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    color: #797979;
+    align-items: center;
+}
+table, td {
+	border: 1px solid black;
+	padding: 2px;
+	margin-left: 0px;
+}
+td.titulos { /* Estilo do <h4> no form contato */
+	font-size :20px;
+	color :#270F32;
+	font-family :'Arial';
+	text-align : left;
+}
+td.resultados { /* Estilo do <h4> no form contato */
+	font-size :18px;
+	color :#215478;
+	font-family :'BebasNeue';
+	text-align : left;
+}
+div.busca a {
+	text-decoration: none;
+	font-size: 20px; 
+	font-family: 'CODE Bold';
+	color: #86D3C8;
+	text-align: right;
+}
+div.busca a:hover {
+	text-decoration: none;
+	font-size: 20px; 
+	font-family: 'CODE Bold';
+	color: #797979;
+	text-align: right;
+}

@@ -1,0 +1,125 @@
+/* admpainel.css */
+
+body { /*Body padrão e alterar imagem do background*/
+	margin :0;
+	padding :0;
+	background :url("../imagens/backgroundAdm.jpg");
+	background-image: no-repeat;
+	background-attachment: fixed;
+}
+a { /*Alterar contorno dos <a>*/
+	outline :0;
+}
+img:hover { /*Remover borda das imagens*/
+	border :4;
+}
+@font-face { /*Fonte LimelightRegular "Avá, é mesmo"*/
+	font-family :'CaviarDreams';
+	src: url('../fonts/CaviarDreams.ttf') format('truetype');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte LimelightRegular "Avá, é mesmo"*/
+	font-family :'CODE Bold';
+	src: url('../fonts/CODE Bold.otf') format('truetype');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte Lobster1.4Regular "Avá, é mesmo"*/
+	font-family :'Lobster1.4Regular';
+	src :url('../fonts/lobster-webfont.eot');
+	src :url('../fonts/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/lobster-webfont.woff') format('woff'),
+		url('../fonts/lobster-webfont.ttf') format('truetype'),
+		url('../fonts/lobster-webfont.svg#Lobster1.4Regular') format('svg');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte LimelightRegular "Avá, é mesmo"*/
+	font-family :'LimelightRegular';
+	src :url('../fonts/limelight-webfont.eot');
+	src :url('../fonts/limelight-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/limelight-webfont.woff') format('woff'),
+		url('../fonts/limelight-webfont.ttf') format('truetype'),
+		url('../fonts/limelight-webfont.svg#LimelightRegular') format('svg');
+	font-weight :normal;
+	font-style :normal;
+}
+h4 { /* Estilo do <h4> no form contato */
+	font-size :24px;
+	color :#822619;
+	font-family :'Lobster1.4Regular';
+	font-weight :normal;
+	text-align : center;
+}
+h1 { /* Altera o Estilo do Titulo */
+	font-family :'CaviarDreams';
+	font-size :45px;
+	color :#911e1e;
+	font-weight :bold;
+	text-align: center;
+	cellspacing: 2px;
+}
+a {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'CODE Bold';
+	color: #173c67;
+	font-weight: bold;
+}
+h1 a {
+	font-family :'LimelightRegular';
+	font-size :40px;
+	color :#911e1e;
+	text-align: center;
+	font-weight: normal;
+}
+h1 a:hover {
+	font-family :'LimelightRegular';
+	font-size :43px;
+	color :#481a53;
+	text-align: center;
+}
+#contactform {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 200px;
+    	width: 400px;
+}
+input[type="submit"] {
+	background :transparent url("imagens/button.png") no-repeat 0 -450px;
+	width :100px;
+	height :50px;
+	cursor :pointer;
+	background-color: white;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+input[type="submit"]:hover {
+	background :transparent url("imagens/button.png") no-repeat 0 -364px;
+	background-color: black;
+	width: 100px;
+	height: 50px;
+	color: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+label {
+    font-family:'CaviarDreams';
+    display: block;
+    font-weight: bold;
+    margin-right:10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;*/
+}
+.input{
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    color: #797979;
+}

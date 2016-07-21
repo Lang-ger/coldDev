@@ -1,0 +1,95 @@
+body{
+  padding-top: 120px;
+}
+@font-face { /*Fonte CaviarDreams_Italic "Avá, é mesmo"*/
+	font-family :'CaviarDreams_Italic';
+	src: url('../fonts/CaviarDreams_Italic.ttf') format('truetype');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte CaviarDreams_Italic "Avá, é mesmo"*/
+	font-family :'CaviarDreams';
+	src: url('../fonts/CaviarDreams.ttf') format('truetype');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte CaviarDreams_Italic "Avá, é mesmo"*/
+	font-family :'Chunkfive';
+	src: url('../fonts/Chunkfive.ttf') format('truetype');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face { /*Fonte Lobster1.4Regular "Avá, é mesmo"*/
+	font-family :'Lobster1.4Regular';
+	src :url('../fonts/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/lobster-webfont.woff') format('woff'),
+		url('../fonts/lobster-webfont.ttf') format('truetype'),
+		url('../fonts/lobster-webfont.svg#Lobster1.4Regular') format('svg');
+	font-weight :normal;
+	font-style :normal;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:black;
+    color:white;
+    text-align:center;
+    z-index: 2;
+    padding:5px;
+}
+#header h1{
+    font-family :'Lobster1.4Regular';
+}
+#TitleTempUmi, p.TitleTempUmi{
+  font-family :'CaviarDreams';
+  text-align:center;
+  font-size: 26px;
+  color: 4a3a78;
+  font-weight: bold;
+}
+#TitleDesc{
+  font-family :'CaviarDreams';
+  text-align:center;
+  font-size: 30px;
+  color: 558746;
+  font-weight: bold;
+}
+#ValorTempUmi, p.ValorTempUmi{
+  font-family :'Chunkfive';
+  font-size: 30px;
+  color: darkred;
+}
+#ValorMinMax{
+  font-family :'Chunkfive';
+  font-size: 30px;
+  color: darkred;
+}
+#footer {
+    font-family :'Lobster1.4Regular';
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#versite {
+    font-family :'CaviarDreams';
+    position: fixed;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    top: auto;
+    font-size: 30px;
+    text-align:center;
+    padding:5px;
+    font-weight: bold;
+}
+#footer h3{
+      font-family :'CaviarDreams';
+}
